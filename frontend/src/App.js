@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import "./App.css";
 
-const API_BASE = process.env.REACT_APP_API_BASE || "http://127.0.0.1:8000";
+const API_BASE = process.env.REACT_APP_API_BASE || "https://examai-assistant.onrender.com";
 
 const SpotlightCard = ({ children, className = "" }) => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
